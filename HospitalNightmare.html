@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>HospitalNightmare</title>
+</head>
+
+<body>
+<script type="text/javascript"><!--
+function myEnter(){
+   myPassWord=prompt("秘密のパスワードを入力してください","");
+        if ( myPassWord == "pass1" )
+      location.href = "01.html"
+ 　else if ( myPassWord == "pass2" )
+      location.href = "02.html"
+
+   else if ( myPassWord == "pass3" )
+      location.href = "03.html";
+
+   else if ( myPassWord == "pass4" )
+      location.href = "04.html";
+
+   else if ( myPassWord == "pass5" )
+      location.href = "05.html";
+
+   else if ( myPassWord == "pass6" )
+      location.href = "06.html";
+
+   else if ( myPassWord == "pass7" )
+      location.href = "07.html";
+
+
+   else{
+      alert( "パスワードが違います!" );
+   }
+}
+// --></script>
+
+<form>
+<font size="7">入力はこちら</font> 
+<p><input type="button" value="password" onclick="myEnter()" class="BT1">
+
+</form>
+<style type="text/css">
+.BT1{width: 300px; height: 150; font-size: 18pt; }
+</style>
+
+</head>
+
+</html>
